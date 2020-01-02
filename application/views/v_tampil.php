@@ -9,7 +9,7 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title  -->
-    <title>CodeIgniter - CRUD</title>
+    <title>CodeIgniter - Project one</title>
 
     <!-- Favicon  -->
     <link rel="shortcut icon" href="<?php echo base_url('assets/img/core-img/favicon.ico') ?>">
