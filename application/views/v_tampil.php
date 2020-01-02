@@ -9,7 +9,7 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title  -->
-    <title>Bizplus - One Page Parallax</title>
+    <title>CodeIgniter - CRUD</title>
 
     <!-- Favicon  -->
     <link rel="shortcut icon" href="<?php echo base_url('assets/img/core-img/favicon.ico') ?>">
@@ -250,7 +250,7 @@
                 <!--  Why Choose Image Area Start  -->
                 <div class="col-md-5 col-md-offset-2">
                     <div class="why_choose_us_image wow fadeInRight" data-wow-delay="0.2s">
-                        <img src="img/bg-pattern/why-choose-one.png" alt="">
+                        <img src="<?php echo base_url('assets/img/bg-pattern/why-choose-one.png') ?>" alt="">
                     </div>
                 </div>
             </div>
@@ -259,7 +259,7 @@
                 <!--  Why Choose Image Area Start  -->
                 <div class="col-md-5">
                     <div class="why_choose_us_image second_area wow fadeInLeft" data-wow-delay="0.4s">
-                        <img src="img/bg-pattern/why-choose-two.png" alt="">
+                        <img src="<?php echo base_url('assets/img/bg-pattern/why-choose-two.png') ?>" alt="">
                     </div>
                 </div>
                 <!--  Why Choose Text Area Start  -->
@@ -310,7 +310,7 @@
                             <div class="service_details_content">
                                 <!-- Service Details Thumb -->
                                 <div class="service_details_thumb">
-                                    <img src="img/services-img/service-details.jpg" alt="">
+                                    <img src="<?php echo base_url('assets/img/services-img/service-details.jpg') ?>" alt="">
                                 </div>
                                 <!-- Service Details Text Area -->
                                 <div class="single_part_content">
@@ -352,7 +352,7 @@
                     <div class="single_service wow fadeInUp" data-wow-delay=".2s">
                         <!-- Single Service image -->
                         <div class="single_service_img">
-                            <img src="img/services-img/service-1.jpg" alt="">
+                            <img src="<?php echo base_url('assets/img/services-img/service-1.jpg') ?>" alt="">
                         </div>
                         <!-- Single Service title -->
                         <div class="single_service_title">
@@ -377,7 +377,7 @@
                     <div class="single_service wow fadeInUp" data-wow-delay=".4s">
                         <!-- Single Service image -->
                         <div class="single_service_img">
-                            <img src="img/services-img/service-2.jpg" alt="">
+                            <img src="<?php echo base_url('assets/img/services-img/service-2.jpg') ?>" alt="">
                         </div>
                         <!-- Single Service title -->
                         <div class="single_service_title">
@@ -402,7 +402,7 @@
                     <div class="single_service wow fadeInUp" data-wow-delay=".6s">
                         <!-- Single Service image -->
                         <div class="single_service_img">
-                            <img src="img/services-img/service-3.jpg" alt="">
+                            <img src="<?php echo base_url('assets/img/services-img/service-3.jpg') ?>" alt="">
                         </div>
                         <!-- Single Service title -->
                         <div class="single_service_title">
@@ -427,7 +427,7 @@
                     <div class="single_service wow fadeInUp" data-wow-delay=".8s">
                         <!-- Single Service image -->
                         <div class="single_service_img">
-                            <img src="img/services-img/service-4.jpg" alt="">
+                            <img src="<?php echo base_url('assets/img/services-img/service-4.jpg') ?>" alt="">
                         </div>
                         <!-- Single Service title -->
                         <div class="single_service_title">
@@ -452,7 +452,7 @@
                     <div class="single_service wow fadeInUp" data-wow-delay="1s">
                         <!-- Single Service image -->
                         <div class="single_service_img">
-                            <img src="img/services-img/service-5.jpg" alt="">
+                            <img src="<?php echo base_url('assets/img/services-img/service-5.jpg') ?>" alt="">
                         </div>
                         <!-- Single Service title -->
                         <div class="single_service_title">
@@ -477,7 +477,7 @@
                     <div class="single_service wow fadeInUp" data-wow-delay="1.2s">
                         <!-- Single Service image -->
                         <div class="single_service_img">
-                            <img src="img/services-img/service-6.jpg" alt="">
+                            <img src="<?php echo base_url('assets/img/services-img/service-6.jpg') ?>" alt="">
                         </div>
                         <!-- Single Service title -->
                         <div class="single_service_title">
@@ -646,7 +646,7 @@
                                         <!--  Gallery Slider -->
                                         <div class="single_gallary_slider">
                                             <div class="single_slider">
-                                                <img src="img/gallery/3.jpg" alt="">
+                                                <img src="<?php echo base_url('assets/img/gallery/3.jpg') ?>" alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -698,7 +698,7 @@
             <!-- Single gallery Item Start -->
             <div class="single_gallery_item wow fadeInUp" data-wow-delay="0.2s">
                 <a data-target="#works_details" data-toggle="modal" href="#">
-                    <img src="img/gallery/1.jpg" alt="">
+                    <img src="<?php echo base_url('assets/img/gallery/1.jpg') ?>" alt="">
                     <!-- Single gallery Item hover caption -->
                     <div class="hover_overlay">
                         <div class="table">
@@ -716,7 +716,7 @@
             <!-- Single gallery Item Start -->
             <div class="single_gallery_item wow fadeInUp" data-wow-delay=".4s">
                 <a data-target="#works_details" data-toggle="modal" href="#">
-                    <img src="img/gallery/2.jpg" alt="">
+                    <img src="<?php echo base_url('assets/img/gallery/2.jpg') ?>" alt="">
                     <!-- Single gallery Item hover caption -->
                     <div class="hover_overlay">
                         <div class="table">
@@ -734,7 +734,7 @@
             <!-- Single gallery Item Start -->
             <div class="single_gallery_item wow fadeInUp" data-wow-delay=".6s">
                 <a data-target="#works_details" data-toggle="modal" href="#">
-                    <img src="img/gallery/3.jpg" alt="">
+                    <img src="<?php echo base_url('assets/img/gallery/3.jpg') ?>" alt="">
                     <!-- Single gallery Item hover caption -->
                     <div class="hover_overlay">
                         <div class="table">
@@ -752,7 +752,7 @@
             <!-- Single gallery Item Start -->
             <div class="single_gallery_item wow fadeInUp" data-wow-delay=".8s">
                 <a data-target="#works_details" data-toggle="modal" href="#">
-                    <img src="img/gallery/4.jpg" alt="">
+                    <img src="<?php echo base_url('assets/img/gallery/4.jpg') ?>" alt="">
                     <!-- Single gallery Item hover caption -->
                     <div class="hover_overlay">
                         <div class="table">
@@ -770,7 +770,7 @@
             <!-- Single gallery Item Start -->
             <div class="single_gallery_item wow fadeInUp" data-wow-delay="1s">
                 <a data-target="#works_details" data-toggle="modal" href="#">
-                    <img src="img/gallery/7.jpg" alt="">
+                    <img src="<?php echo base_url('assets/img/gallery/7.jpg') ?>" alt="">
                     <!-- Single gallery Item hover caption -->
                     <div class="hover_overlay">
                         <div class="table">
@@ -788,7 +788,7 @@
             <!-- Single gallery Item Start -->
             <div class="single_gallery_item wow fadeInUp" data-wow-delay="1.2s">
                 <a data-target="#works_details" data-toggle="modal" href="#">
-                    <img src="img/gallery/6.jpg" alt="">
+                    <img src="<?php echo base_url('assets/img/gallery/6.jpg') ?>" alt="">
                     <!-- Single gallery Item hover caption -->
                     <div class="hover_overlay">
                         <div class="table">
@@ -806,7 +806,7 @@
             <!-- Single gallery Item Start -->
             <div class="single_gallery_item wow fadeInUp" data-wow-delay="1.4s">
                 <a data-target="#works_details" data-toggle="modal" href="#">
-                    <img src="img/gallery/5.jpg" alt="">
+                    <img src="<?php echo base_url('assets/img/gallery/5.jpg') ?>" alt="">
                     <!-- Single gallery Item hover caption -->
                     <div class="hover_overlay">
                         <div class="table">
@@ -824,7 +824,7 @@
             <!-- Single gallery Item Start -->
             <div class="single_gallery_item wow fadeInUp" data-wow-delay="1.6s">
                 <a data-target="#works_details" data-toggle="modal" href="#">
-                    <img src="img/gallery/8.jpg" alt="">
+                    <img src="<?php echo base_url('assets/img/gallery/8.jpg') ?>" alt="">
                     <!-- Single gallery Item hover caption -->
                     <div class="hover_overlay">
                         <div class="table">
@@ -863,7 +863,7 @@
                         <div class="single_advisor_slide">
                             <!-- Single advisor profile thumb -->
                             <div class="advisor_thumb">
-                                <img src="img/advisor-img/advisor-1.png" alt="">
+                                <img src="<?php echo base_url('assets/img/advisor-img/advisor-1.png') ?>" alt="">
                             </div>
                             <!-- Single advisor profile details -->
                             <div class="single_advisor_details_info">
@@ -888,7 +888,7 @@
                         <div class="single_advisor_slide">
                             <!-- Single advisor profile thumb -->
                             <div class="advisor_thumb">
-                                <img src="img/advisor-img/advisor-2.png" alt="">
+                                <img src="<?php echo base_url('assets/img/advisor-img/advisor-2.png') ?>" alt="">
                             </div>
                             <!-- Single advisor profile details -->
                             <div class="single_advisor_details_info">
@@ -913,7 +913,7 @@
                         <div class="single_advisor_slide">
                             <!-- Single advisor profile thumb -->
                             <div class="advisor_thumb">
-                                <img src="img/advisor-img/advisor-3.png" alt="">
+                                <img src="<?php echo base_url('assets/img/advisor-img/advisor-3.png') ?>" alt="">
                             </div>
                             <!-- Single advisor profile details -->
                             <div class="single_advisor_details_info">
